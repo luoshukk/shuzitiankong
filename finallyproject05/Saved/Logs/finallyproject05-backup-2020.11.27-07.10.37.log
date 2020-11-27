@@ -1,0 +1,887 @@
+﻿Log file open, 11/27/20 15:10:14
+LogInit: Display: Running engine for game: finallyproject05
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.181772
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz, GPU: NVIDIA GeForce GTX 1650
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/虚幻4/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Engine.ini]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Engine.ini]
+[2020.11.27-07.10.14:542][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Engine.ini]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Engine.ini]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.27-07.10.14:542][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.27-07.10.14:543][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.27-07.10.14:543][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.27-07.10.14:543][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.27-07.10.14:543][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.27-07.10.14:543][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.27-07.10.14:543][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.27-07.10.14:543][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.27-07.10.14:543][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Engine.ini]
+[2020.11.27-07.10.14:543][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Engine.ini]
+[2020.11.27-07.10.14:547][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.27-07.10.14:547][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.27-07.10.14:548][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.27-07.10.14:548][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.27-07.10.14:548][  0]LogHAL: Display: Platform has ~ 8 GB [8506298368 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.27-07.10.14:548][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.27-07.10.14:548][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.27-07.10.14:548][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Scalability.ini]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.27-07.10.14:549][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.27-07.10.14:550][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.27-07.10.14:550][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.27-07.10.14:550][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.27-07.10.14:550][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.27-07.10.14:550][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.27-07.10.14:550][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Config/Windows/Engine.ini]
+[2020.11.27-07.10.14:550][  0]LogInit: Computer: LAPTOP-IEKCA85K
+[2020.11.27-07.10.14:550][  0]LogInit: User: 86182
+[2020.11.27-07.10.14:550][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.11.27-07.10.14:550][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.27-07.10.14:550][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.11.27-07.10.14:550][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.27-07.10.14:550][  0]LogMemory: Process Physical Memory: 115.34 MB used, 115.35 MB peak
+[2020.11.27-07.10.14:550][  0]LogMemory: Process Virtual Memory: 104.57 MB used, 104.57 MB peak
+[2020.11.27-07.10.14:550][  0]LogMemory: Physical Memory: 5515.70 MB used,  2596.54 MB free, 8112.24 MB total
+[2020.11.27-07.10.14:550][  0]LogMemory: Virtual Memory: 5151.50 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.11.27-07.10.14:561][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.27-07.10.14:604][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.27-07.10.14:605][  0]LogInit: Using OS detected language (zh-CN).
+[2020.11.27-07.10.14:605][  0]LogInit: Using OS detected locale (zh-CN).
+[2020.11.27-07.10.14:606][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2020.11.27-07.10.14:694][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2020.11.27-07.10.14:694][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2020.11.27-07.10.14:694][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2020.11.27-07.10.14:694][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2020.11.27-07.10.14:695][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2020.11.27-07.10.14:695][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2020.11.27-07.10.14:695][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2020.11.27-07.10.14:695][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.11.27-07.10.14:695][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.11.27-07.10.14:695][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2020.11.27-07.10.14:695][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.11.27-07.10.14:747][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.27-07.10.14:839][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.27-07.10.14:839][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.27-07.10.15:009][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.27-07.10.15:009][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.27-07.10.15:009][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.27-07.10.15:009][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.27-07.10.15:081][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650' (Feature Level 11_0)
+[2020.11.27-07.10.15:081][  0]LogD3D11RHI:       3962/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.27-07.10.15:084][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.27-07.10.15:084][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.27-07.10.15:084][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.27-07.10.15:091][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.27-07.10.15:091][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.27-07.10.15:091][  0]LogWindows: EnumDisplayDevices:
+[2020.11.27-07.10.15:091][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1650' (P:0 D:1)
+[2020.11.27-07.10.15:092][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1650' (P:1 D:1)
+[2020.11.27-07.10.15:092][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1650' (P:0 D:0)
+[2020.11.27-07.10.15:093][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1650' (P:0 D:0)
+[2020.11.27-07.10.15:093][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.27-07.10.15:093][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650
+[2020.11.27-07.10.15:094][  0]LogD3D11RHI:   Driver Version: 442.23 (internal:26.21.14.4223, unified:442.23)
+[2020.11.27-07.10.15:094][  0]LogD3D11RHI:      Driver Date: 1-31-2020
+[2020.11.27-07.10.15:094][  0]LogRHI: Texture pool is 2773 MB (70% of 3962 MB)
+[2020.11.27-07.10.15:138][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.27-07.10.15:138][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.27-07.10.15:138][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.27-07.10.15:154][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.27-07.10.15:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.27-07.10.15:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.27-07.10.15:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.27-07.10.15:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.27-07.10.15:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.27-07.10.15:537][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.27-07.10.15:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.27-07.10.15:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.27-07.10.15:567][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.27-07.10.15:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.27-07.10.15:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.27-07.10.15:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.27-07.10.15:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.27-07.10.15:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.27-07.10.15:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.27-07.10.15:634][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.27-07.10.15:644][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.27-07.10.15:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.27-07.10.15:663][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.27-07.10.15:663][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.27-07.10.15:673][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.27-07.10.15:749][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../Test01/数字天空/finallyproject05/Intermediate/Shaders/WorkingDirectory/6456/).
+[2020.11.27-07.10.15:749][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/86182/AppData/Local/Temp/UnrealShaderWorkingDir/1B9D44CE4AA72F47406D5B9AB2F79C0A/'.
+[2020.11.27-07.10.15:750][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.27-07.10.15:750][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.27-07.10.15:750][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.27-07.10.16:423][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.27-07.10.16:496][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/86182/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.27-07.10.16:496][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/86182/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.27-07.10.16:496][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Test01/数字天空/finallyproject05/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.27-07.10.16:496][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.27-07.10.16:496][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Test01/数字天空/finallyproject05/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.27-07.10.16:496][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.27-07.10.16:507][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.27-07.10.16:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.27-07.10.16:507][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.27-07.10.16:508][  0]LogDerivedDataCache: Using Local data cache path C:/Users/86182/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.27-07.10.16:508][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.27-07.10.16:508][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.27-07.10.16:571][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.27-07.10.16:572][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.27-07.10.16:597][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2020.11.27-07.10.16:813][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.27-07.10.16:939][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.27-07.10.16:939][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.27-07.10.16:939][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.27-07.10.16:939][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.27-07.10.16:939][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.27-07.10.16:955][  0]LogNetVersion: finallyproject05 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2241819862)
+[2020.11.27-07.10.17:353][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000018A795D9E80), frame # 0
+[2020.11.27-07.10.17:354][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A79536AC0), frame # 0
+[2020.11.27-07.10.17:355][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A79585E00), frame # 0
+[2020.11.27-07.10.17:418][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.058750 seconds
+[2020.11.27-07.10.17:423][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.27-07.10.17:424][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.27-07.10.17:424][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.27-07.10.17:850][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.27-07.10.17:856][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.27-07.10.17:913][  0]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.17:913][  0]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.17:913][  0]LogUObjectGlobals: Warning: 寻找对象“Class /Game/ThirdPerson/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C”失败
+[2020.11.27-07.10.17:960][  0]SourceControl: 源码管理已禁用
+[2020.11.27-07.10.17:960][  0]SourceControl: 源码管理已禁用
+[2020.11.27-07.10.17:964][  0]SourceControl: 源码管理已禁用
+[2020.11.27-07.10.17:968][  0]SourceControl: 源码管理已禁用
+[2020.11.27-07.10.17:978][  0]SourceControl: 源码管理已禁用
+[2020.11.27-07.10.18:308][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.27-07.10.18:338][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.27-07.10.18:338][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.27-07.10.18:400][  0]LogOcInput: OculusInput pre-init called
+[2020.11.27-07.10.18:414][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.27-07.10.18:414][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.27-07.10.18:484][  0]LogEngine: Initializing Engine...
+[2020.11.27-07.10.18:486][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.27-07.10.18:486][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.27-07.10.18:487][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.27-07.10.18:611][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.27-07.10.18:619][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.27-07.10.18:619][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A0053FC00), frame # 0
+[2020.11.27-07.10.18:619][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A00609940), frame # 0
+[2020.11.27-07.10.18:638][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.27-07.10.18:638][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.27-07.10.18:638][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.27-07.10.18:638][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.27-07.10.18:638][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.27-07.10.18:638][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.27-07.10.18:638][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.27-07.10.18:638][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.27-07.10.18:639][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.27-07.10.18:639][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.27-07.10.18:667][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.27-07.10.18:667][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.27-07.10.18:734][  0]LogAudioMixer: Display: Using Audio Device 耳机 (2- SANSUI i37 Stereo)
+[2020.11.27-07.10.18:739][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.27-07.10.18:742][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.27-07.10.18:742][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.27-07.10.18:742][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.27-07.10.18:744][  0]LogInit: FAudioDevice initialized.
+[2020.11.27-07.10.18:744][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.27-07.10.18:795][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/86182/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.27-07.10.18:795][  0]LogInit: Texture streaming: Enabled
+[2020.11.27-07.10.18:819][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.27-07.10.18:819][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.27-07.10.18:824][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.27-07.10.18:866][  0]LogInit: Transaction tracking system initialized
+[2020.11.27-07.10.18:898][  0]BlueprintLog: New page: 编辑器加载
+[2020.11.27-07.10.18:997][  0]LocalizationService: 本地化服务已禁用
+[2020.11.27-07.10.19:164][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.27-07.10.19:164][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.27-07.10.19:338][  0]LogFileCache: Scanning file cache for directory 'D:/虚幻4/Test01/数字天空/finallyproject05/Content/' took 0.05s
+[2020.11.27-07.10.19:574][  0]SourceControl: 源码管理已禁用
+[2020.11.27-07.10.19:575][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.647
+[2020.11.27-07.10.19:575][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.27-07.10.19:575][  0]LightingResults: New page: 光照构建
+[2020.11.27-07.10.19:575][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.27-07.10.19:576][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.27-07.10.19:576][  0]MapCheck: New page: 地图检测
+[2020.11.27-07.10.19:576][  0]LightingResults: New page: 光照构建
+[2020.11.27-07.10.19:584][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A0053FC00), frame # 0
+[2020.11.27-07.10.19:584][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A00609940), frame # 0
+[2020.11.27-07.10.19:584][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.11.27-07.10.19:640][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.11.27-07.10.19:640][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A04973E00), frame # 0
+[2020.11.27-07.10.19:640][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A799A2480), frame # 0
+[2020.11.27-07.10.19:644][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.27-07.10.19:654][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.11.27-07.10.19:654][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.27-07.10.19:654][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.134毫秒。
+[2020.11.27-07.10.19:654][  0]LogFileHelpers: Loading map 'Template_Default' took 0.079
+[2020.11.27-07.10.19:656][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.728
+[2020.11.27-07.10.19:801][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.27-07.10.19:812][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.27-07.10.19:818][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.27-07.10.19:824][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.27-07.10.19:833][  0]LogCollectionManager: Loaded 0 collections in 0.001555 seconds
+[2020.11.27-07.10.19:846][  0]LogFileCache: Scanning file cache for directory 'D:/虚幻4/Test01/数字天空/finallyproject05/Saved/Collections/' took 0.00s
+[2020.11.27-07.10.19:846][  0]LogFileCache: Scanning file cache for directory 'D:/虚幻4/Test01/数字天空/finallyproject05/Content/Developers/86182/Collections/' took 0.00s
+[2020.11.27-07.10.19:846][  0]LogFileCache: Scanning file cache for directory 'D:/虚幻4/Test01/数字天空/finallyproject05/Content/Collections/' took 0.00s
+[2020.11.27-07.10.19:846][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3427 classes and 821 folders.
+[2020.11.27-07.10.19:849][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.11.27-07.10.19:904][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.27-07.10.19:905][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.11.27-07.10.20:377][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.27-07.10.20:379][  0]LogSlate: Took 0.001642 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.11.27-07.10.20:379][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.27-07.10.20:382][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.27-07.10.20:446][  0]LogRenderer: Reallocating scene render targets to support 1208x456 Format 10 NumSamples 1 (Frame:1).
+[2020.11.27-07.10.20:529][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.27-07.10.20:529][  0]LogLoad: (Engine Initialization) Total time: 7.60 seconds
+[2020.11.27-07.10.20:529][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.27-07.10.20:781][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.27-07.10.20:832][  0]LogRenderer: Reallocating scene render targets to support 1208x472 Format 10 NumSamples 1 (Frame:2).
+[2020.11.27-07.10.20:832][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.27-07.10.20:850][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/虚幻4/Test01/数字天空/finallyproject05/Content/' took 0.12s
+[2020.11.27-07.10.20:869][  1]LogAssetRegistry: Asset discovery search completed in 4.2732 seconds
+[2020.11.27-07.10.20:873][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.11.27-07.10.23:970][181]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.27-07.10.24:359][181]LogUObjectGlobals: Warning: 寻找对象“Object /Game/Demonstration_Auto1.Demonstration”失败
+[2020.11.27-07.10.29:906][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:906][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:906][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:906][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:907][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:907][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:907][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:907][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:907][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:907][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:907][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData”：无法找到文件。
+[2020.11.27-07.10.29:907][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData”：无法找到文件。
+[2020.11.27-07.10.29:908][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/1M_Cube_Chamfer”：无法找到文件。
+[2020.11.27-07.10.29:908][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/1M_Cube_Chamfer”：无法找到文件。
+[2020.11.27-07.10.29:908][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/TemplateFloor”：无法找到文件。
+[2020.11.27-07.10.29:908][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/TemplateFloor”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Bump_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Bump_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/LeftArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/LeftArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Ramp_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Ramp_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/RightArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/RightArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData”：无法找到文件。
+[2020.11.27-07.10.29:909][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData”：无法找到文件。
+[2020.11.27-07.10.29:910][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:910][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:910][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:910][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:910][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/1M_Cube_Chamfer”：无法找到文件。
+[2020.11.27-07.10.29:910][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/1M_Cube_Chamfer”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/TemplateFloor”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/TemplateFloor”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Bump_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Bump_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/LeftArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/LeftArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Ramp_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:911][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Ramp_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/RightArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/RightArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:912][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:913][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:914][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:916][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:916][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:916][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:916][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:916][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:916][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:916][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:916][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:917][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:917][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:917][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:917][510]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2020.11.27-07.10.29:918][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData”：无法找到文件。
+[2020.11.27-07.10.29:918][510]LoadErrors: 加载失败 /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData 引用者 PersistentLevel
+[2020.11.27-07.10.29:918][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData”：无法找到文件。
+[2020.11.27-07.10.29:919][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Bump_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:919][510]LoadErrors: 加载失败 /Game/ThirdPerson/Meshes/Bump_StaticMesh.Bump_StaticMesh 引用者 Bump_StaticMesh
+[2020.11.27-07.10.29:920][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Bump_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:920][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/1M_Cube_Chamfer”：无法找到文件。
+[2020.11.27-07.10.29:920][510]LoadErrors: 加载失败 /Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer 引用者 CubeMesh_5
+[2020.11.27-07.10.29:920][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/1M_Cube_Chamfer”：无法找到文件。
+[2020.11.27-07.10.29:920][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/TemplateFloor”：无法找到文件。
+[2020.11.27-07.10.29:920][510]LoadErrors: 加载失败 /Game/Geometry/Meshes/TemplateFloor.TemplateFloor 引用者 Floor_1
+[2020.11.27-07.10.29:920][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/Geometry/Meshes/TemplateFloor”：无法找到文件。
+[2020.11.27-07.10.29:920][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/LeftArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:920][510]LoadErrors: 加载失败 /Game/ThirdPerson/Meshes/LeftArm_StaticMesh.LeftArm_StaticMesh 引用者 LeftArm_StaticMesh
+[2020.11.27-07.10.29:920][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/LeftArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:921][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:921][510]LoadErrors: 加载失败 /Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh.Linear_Stair_StaticMesh 引用者 Linear_Stair_StaticMesh
+[2020.11.27-07.10.29:921][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:921][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Ramp_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:921][510]LoadErrors: 加载失败 /Game/ThirdPerson/Meshes/Ramp_StaticMesh.Ramp_StaticMesh 引用者 Ramp_StaticMesh
+[2020.11.27-07.10.29:921][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/Ramp_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:921][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/RightArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:921][510]LoadErrors: 加载失败 /Game/ThirdPerson/Meshes/RightArm_StaticMesh.RightArm_StaticMesh 引用者 RightArm_StaticMesh
+[2020.11.27-07.10.29:921][510]LogLinker: Warning: 加载“../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap”时未能加载“/Game/ThirdPerson/Meshes/RightArm_StaticMesh”：无法找到文件。
+[2020.11.27-07.10.29:936][510]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.27-07.10.29:949][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.11.27-07.10.29:956][510]Cmd: MAP LOAD FILE="../../../../Test01/数字天空/finallyproject05/Content/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.27-07.10.29:956][510]LightingResults: New page: 光照构建
+[2020.11.27-07.10.29:956][510]LoadErrors: New page: 正在加载地图：ThirdPersonExampleMap.umap
+[2020.11.27-07.10.29:957][510]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.27-07.10.29:957][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.27-07.10.29:957][510]MapCheck: New page: 地图检测
+[2020.11.27-07.10.29:957][510]LightingResults: New page: 光照构建
+[2020.11.27-07.10.29:965][510]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018A04973E00), frame # 510
+[2020.11.27-07.10.29:965][510]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018A799A2480), frame # 510
+[2020.11.27-07.10.29:966][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.11.27-07.10.29:981][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.11.27-07.10.29:991][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.11.27-07.10.30:036][510]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.27-07.10.30:036][510]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.27-07.10.30:036][510]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018A25D83C00), frame # 510
+[2020.11.27-07.10.30:036][510]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018A25FD96C0), frame # 510
+[2020.11.27-07.10.30:046][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.11.27-07.10.30:068][510]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.27-07.10.30:069][510]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.065毫秒。
+[2020.11.27-07.10.30:069][510]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.113
+[2020.11.27-07.10.30:099][510]LoadErrors: Warning: 创建导出：资产“Arrow”的外部容器加载失败：ThirdPersonCharacter_C /Game/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+[2020.11.27-07.10.30:099][510]LoadErrors: Warning: 创建导出：资产“FollowCamera”的外部容器加载失败：ThirdPersonCharacter_C /Game/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+[2020.11.27-07.10.30:099][510]LoadErrors: Warning: 创建导出：资产“CollisionCylinder”的外部容器加载失败：ThirdPersonCharacter_C /Game/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+[2020.11.27-07.10.30:099][510]LoadErrors: Warning: 创建导出：资产“CharMoveComp”的外部容器加载失败：ThirdPersonCharacter_C /Game/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+[2020.11.27-07.10.30:099][510]LoadErrors: Warning: 创建导出：资产“CharacterMesh0”的外部容器加载失败：ThirdPersonCharacter_C /Game/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+[2020.11.27-07.10.30:099][510]LoadErrors: Warning: 创建导出：资产“CameraBoom”的外部容器加载失败：ThirdPersonCharacter_C /Game/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+[2020.11.27-07.10.35:176][806]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.27-07.10.35:176][806]LogWindows: Windows GetLastError: 操作成功完成。 (0)
+[2020.11.27-07.10.37:210][806]LogWindows: Error: === Critical error: ===
+[2020.11.27-07.10.37:210][806]LogWindows: Error: 
+[2020.11.27-07.10.37:210][806]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp] [Line: 204] 
+[2020.11.27-07.10.37:210][806]LogWindows: Error: Renaming an object (Package /Game/SpaceshipInterior/Maps/Demonstration_BuiltData) on top of an existing object (Package /Game/Demonstration_Auto1_BuiltData) is not allowed
+[2020.11.27-07.10.37:210][806]LogWindows: Error: 
+[2020.11.27-07.10.37:210][806]LogWindows: Error: 
+[2020.11.27-07.10.37:210][806]LogWindows: Error: [Callstack] 0x00007ff96cee3b29 KERNELBASE.dll!UnknownFunction []
+[2020.11.27-07.10.37:210][806]LogWindows: Error: [Callstack] 0x00007ff9017aec66 UE4Editor-Core.d!UnknownFunction []
+[2020.11.27-07.10.37:210][806]LogWindows: Error: [Callstack] 0x00007ff9017b2048 UE4Editor-Core.d!UnknownFunction []
+[2020.11.27-07.10.37:210][806]LogWindows: Error: [Callstack] 0x00007ff90153e52d UE4Editor-Core.d!UnknownFunction []
+[2020.11.27-07.10.37:210][806]LogWindows: Error: [Callstack] 0x00007ff9166a13ad UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8ff8abf06 UE4Editor-Engine.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8ff8a0311 UE4Editor-Engine.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff91667c302 UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff916698a36 UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff91667c25f UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff916698a36 UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8fe648dd7 UE4Editor-Engine.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff91667c25f UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff916698a36 UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff91667c25f UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff91674dddc UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff916738037 UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff91675d490 UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff91675c410 UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff9167713ef UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff916783efa UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff9167835c3 UE4Editor-CoreUObject.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8f5e38a32 UE4Editor-ContentBrowser.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8f5df688f UE4Editor-ContentBrowser.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8f5e422ad UE4Editor-ContentBrowser.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8f5df461d UE4Editor-ContentBrowser.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8f5df1037 UE4Editor-ContentBrowser.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8f5e54077 UE4Editor-ContentBrowser.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff8f5e4271b UE4Editor-ContentBrowser.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff9021a0f9e UE4Editor-Slate.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff9022253e2 UE4Editor-Slate.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff90220e68a UE4Editor-Slate.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff902201ad9 UE4Editor-Slate.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff93d017f62 UE4Editor-ApplicationCore.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff93d005c87 UE4Editor-ApplicationCore.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff93d01a619 UE4Editor-ApplicationCore.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff93d0017d0 UE4Editor-ApplicationCore.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff96fbb5c1d USER32.dll!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff96fbb5612 USER32.dll!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff93d01bb34 UE4Editor-ApplicationCore.d!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff78caf68c4 UE4Editor.e!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff78cb0ba7c UE4Editor.e!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff78cb0bb5a UE4Editor.e!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff78cb1e31d UE4Editor.e!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff78cb2145a UE4Editor.e!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff96fe37c24 KERNEL32.DLL!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: [Callstack] 0x00007ff96ff8d4d1 ntdll.dll!UnknownFunction []
+[2020.11.27-07.10.37:211][806]LogWindows: Error: 
+[2020.11.27-07.10.37:218][806]LogExit: Executing StaticShutdownAfterError
+[2020.11.27-07.10.37:220][806]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.11.27-07.10.37:220][806]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.11.27-07.10.37:234][806]Log file closed, 11/27/20 15:10:37
